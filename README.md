@@ -2,6 +2,7 @@
 
 I was seeing these shirts everywhere. It had to be done. 
 
+HTML5 Boilerplate for the base.
 Cufon for Varsity Font. 
 Flickr api for the photos. 
 CSS for the grayscale. 
