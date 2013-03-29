@@ -23,8 +23,8 @@ var lyricLength = lyrics.length;
             console[method] = noop;
         }
     }
-   
-    var url = 'http://api.flickr.com/services/rest/?method=flickr.groups.pools.getPhotos&jsoncallback=?&api_key=4403c4fbc0b5dfe77dedc6363437ed05&tags=stage%20dive&group_id=10773269%40N00&extras=url_m&format=json'
+
+    var url = 'http://api.flickr.com/services/rest/?method=flickr.groups.pools.getPhotos&jsoncallback=?&api_key='+api_key+'&tags=stage%20dive&group_id=10773269%40N00&extras=url_m&format=json'
     
     $.getJSON( url).done(function( data ) {
         photos = data.photos.photo;
